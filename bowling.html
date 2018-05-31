@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script|Shadows+Into+Light+Two" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Josefin+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Puritan" rel="stylesheet">
+
+  <link href="./stylesheets.css" type="text/css" rel="stylesheet">
+
+
+</head>
+
+
+
+<body>
+  <div class='header_with_image_nav' id="myHeader">
+    <p class="team_name">&nbsp;&nbsp;gradient<span class="style_s">S</span></p>
+    <div class="nav">
+      <ul class="nav_list">
+        <li><a href="#" style="font-weight:bolder; color:orange;">Bowling</a></li>
+        <li><a href="./batting.html">Batting</a></li>
+        <li><a href="./team.html">Team</a></li>
+        <li><a href="./index.html">Home</a></li>
+      </ul>
+    </div>
+    <img class="ipl_logo" src="./Indian_Premier_League.png">
+
+  </div>
+
+
+
+
+  <div class="content_bowling">
+    <div class="team_details">
+
+      <div class="">
+        <iframe width="700" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~VenuGopalShetty/43.embed"></iframe>
+        <div class="team_cards">
+          <p class="graph_heading">
+            Bowling Economy of Players
+          </p>
+          <p class="graph_content_explanation">
+            In scatter plot we seperated the economy of the player in four types very expensive, expensive, economical and very economical. Hear we plotted the economy aganist the wickets he taken, we can Malinga got very good overall matches economy.
+          </p>
+          <button type="button" name="Code">Code</button>
+        </div>
+
+      </div>
+
+      <div class="">
+
+        <div class="team_cards">
+          <h class="graph_heading">Top 10 wicket takers</h>
+          <br>
+          <p class="graph_content_explanation">Malinga took high wickets and also we can see he given so many extra runs but with a good economy rate.</p>
+          <br><button>Code</button>
+        </div>
+        <table border="1" class="dataframe" style="margin-left:500px;">
+          <thead>
+            <tr style="text-align: right;">
+
+              <th>bowler</th>
+              <th>overs</th>
+              <th>run_given</th>
+              <th>total_extras</th>
+              <th>economy</th>
+              <th>wickets</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+
+              <td>Lasith Malinga</td>
+              <td>426.5</td>
+              <td>2766</td>
+              <td>135</td>
+              <td>6.485</td>
+              <td>154</td>
+            </tr>
+            <tr>
+
+              <td>Amit Mishra</td>
+              <td>439.8</td>
+              <td>3191</td>
+              <td>64</td>
+              <td>7.256</td>
+              <td>134</td>
+            </tr>
+            <tr>
+
+              <td>Harbhajan Singh</td>
+              <td>486.5</td>
+              <td>3295</td>
+              <td>70</td>
+              <td>6.773</td>
+              <td>127</td>
+            </tr>
+            <tr>
+
+              <td>Piyush Chawla</td>
+              <td>427.3</td>
+              <td>3198</td>
+              <td>30</td>
+              <td>7.484</td>
+              <td>126</td>
+            </tr>
+            <tr>
+
+              <td>Dwayne Bravo</td>
+              <td>336.3</td>
+              <td>2658</td>
+              <td>92</td>
+              <td>7.904</td>
+              <td>122</td>
+            </tr>
+            <tr>
+
+              <td>B Kumar</td>
+              <td>330.3</td>
+              <td>2244</td>
+              <td>72</td>
+              <td>6.794</td>
+              <td>111</td>
+            </tr>
+            <tr>
+
+              <td>Ashish Nehra</td>
+              <td>318.2</td>
+              <td>2422</td>
+              <td>65</td>
+              <td>7.612</td>
+              <td>106</td>
+            </tr>
+            <tr>
+
+              <td>Vinay Kumar</td>
+              <td>351.0</td>
+              <td>2862</td>
+              <td>55</td>
+              <td>8.154</td>
+              <td>103</td>
+            </tr>
+            <tr>
+
+              <td>Zaheer Khan</td>
+              <td>367.0</td>
+              <td>2691</td>
+              <td>74</td>
+              <td>7.332</td>
+              <td>102</td>
+            </tr>
+            <tr>
+
+              <td>Ravichandran Ashwin</td>
+              <td>381.7</td>
+              <td>2409</td>
+              <td>69</td>
+              <td>6.311</td>
+              <td>100</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+      <div class="">
+        <iframe width="700" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~VenuGopalShetty/45.embed"></iframe>
+        <div class="team_cards">
+          <p class="graph_heading">
+            Dismissal Kind of player
+          </p>
+          <p class="graph_content_explanation">
+            In Pie chart we can see that most of the batsman got dismmissed by caught out.
+          </p>
+          <button type="button" name="Code">Code</button>
+        </div>
+      </div>
+      <br><br>
+
+
+      <div class="">
+        <style>
+          .dataframe thead tr:only-child th {
+            text-align: right;
+          }
+
+          .dataframe thead th {
+            text-align: left;
+          }
+
+          .dataframe tbody tr th {
+            vertical-align: top;
+          }
+
+          .dataframe thead th {
+            padding: 5px;
+            background-color: black;
+
+          }
+
+          .dataframe tbody tr:nth-child(even) {
+            background-color: rgba(128, 128, 128, 0.5);
+          }
+
+
+          .dataframe tbody tr:nth-child(even) {
+            background-color: rgba(255, 255, 255, 0.5);
+          }
+        </style>
+        <div class="team_cards">
+          <p class="graph_heading">
+            Bowlers Dismissing top Batsman
+          </p>
+          <p class="graph_content_explanation">
+            Table shows the most of the top batsman, but Warner was not dismissed by any single bowler more than 3 times. Also Dhoni was dismissed by Ojha and Zaheer khan 7 times in IPL.
+          </p>
+          <button type="button" name="Code">Code</button>
+        </div>
+        <table style="margin-left:500px;" border="1" class="dataframe">
+          <thead>
+            <tr style="text-align: right;">
+
+              <th>Batsman</th>
+              <th>Batsman Runs</th>
+              <th>Bowler</th>
+              <th>Dismissal Kind</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+
+              <td>AB De Villiers</td>
+              <td>3486</td>
+              <td>Piyush Chawla</td>
+              <td>5</td>
+            </tr>
+            <tr>
+
+              <td>AB De Villiers</td>
+              <td>3486</td>
+              <td>Krunal Pandya</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Chris Gayle</td>
+              <td>3651</td>
+              <td>Sandeep Sharma</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Chris Gayle</td>
+              <td>3651</td>
+              <td>Ravichandran Ashwin</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Gautam Gambhir</td>
+              <td>4132</td>
+              <td>Zaheer Khan</td>
+              <td>6</td>
+            </tr>
+            <tr>
+
+              <td>Gautam Gambhir</td>
+              <td>4132</td>
+              <td>Pragyan Ojha</td>
+              <td>5</td>
+            </tr>
+            <tr>
+
+              <td>Gautam Gambhir</td>
+              <td>4132</td>
+              <td>Harbhajan Singh</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Mahendra Singh Dhoni</td>
+              <td>3560</td>
+              <td>Pragyan Ojha</td>
+              <td>7</td>
+            </tr>
+            <tr>
+
+              <td>Mahendra Singh Dhoni</td>
+              <td>3560</td>
+              <td>Zaheer Khan</td>
+              <td>7</td>
+            </tr>
+            <tr>
+
+              <td>Robin Uthappa</td>
+              <td>3778</td>
+              <td>Amit Mishra</td>
+              <td>5</td>
+            </tr>
+            <tr>
+
+              <td>Robin Uthappa</td>
+              <td>3778</td>
+              <td>Ravichandran Ashwin</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Rohit Sharma</td>
+              <td>4207</td>
+              <td>Vinay Kumar</td>
+              <td>6</td>
+            </tr>
+            <tr>
+
+              <td>Rohit Sharma</td>
+              <td>4207</td>
+              <td>Sunil Narine</td>
+              <td>5</td>
+            </tr>
+            <tr>
+
+              <td>Rohit Sharma</td>
+              <td>4207</td>
+              <td>Siddharth Trivedi</td>
+              <td>5</td>
+            </tr>
+            <tr>
+
+              <td>Rohit Sharma</td>
+              <td>4207</td>
+              <td>Amit Mishra</td>
+              <td>5</td>
+            </tr>
+            <tr>
+
+              <td>Rohit Sharma</td>
+              <td>4207</td>
+              <td>Dwayne Bravo</td>
+              <td>5</td>
+            </tr>
+            <tr>
+
+              <td>Rohit Sharma</td>
+              <td>4207</td>
+              <td>Dhawal Kulkarni</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Shikhar Dhawan</td>
+              <td>3561</td>
+              <td>Lasith Malinga</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Shikhar Dhawan</td>
+              <td>3561</td>
+              <td>James Faulkner</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Shikhar Dhawan</td>
+              <td>3561</td>
+              <td>Zaheer Khan</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Shikhar Dhawan</td>
+              <td>3561</td>
+              <td>Praveen Kumar</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Suresh Raina</td>
+              <td>4548</td>
+              <td>Harbhajan Singh</td>
+              <td>5</td>
+            </tr>
+            <tr>
+
+              <td>Suresh Raina</td>
+              <td>4548</td>
+              <td>Yuzvendra Chahal</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Suresh Raina</td>
+              <td>4548</td>
+              <td>Dwayne Bravo</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Suresh Raina</td>
+              <td>4548</td>
+              <td>Piyush Chawla</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Suresh Raina</td>
+              <td>4548</td>
+              <td>Praveen Kumar</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Virat Kohli</td>
+              <td>4423</td>
+              <td>Ashish Nehra</td>
+              <td>6</td>
+            </tr>
+            <tr>
+
+              <td>Virat Kohli</td>
+              <td>4423</td>
+              <td>Sandeep Sharma</td>
+              <td>5</td>
+            </tr>
+            <tr>
+
+              <td>Virat Kohli</td>
+              <td>4423</td>
+              <td>Mitchell McClenaghan</td>
+              <td>4</td>
+            </tr>
+            <tr>
+
+              <td>Virat Kohli</td>
+              <td>4423</td>
+              <td>Dhawal Kulkarni</td>
+              <td>4</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+      </div>
+
+
+      <div class="">
+        <iframe width="700" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~VenuGopalShetty/47.embed"></iframe>
+        <div class="team_cards">
+          <p class="graph_heading">
+            Extras trend for top 10 bowlers
+          </p>
+          <p class="graph_content_explanation">
+            Malinga when started his career in IPL 2009 bowled 53 extras and we can see his trend since first season to 2017, it is completely decreasing trend.
+          </p>
+          <button type="button" name="">Code</button>
+        </div>
+
+      </div>
+
+            <div class="">
+
+              <div class="team_cards">
+                <p class="graph_heading">
+                  Purple Cap Winners
+                </p>
+                <p class="graph_content_explanation">
+                  In overall ipl seasons Bravo took highest wickets in 2013 ipl its 32.
+                </p>
+                <button type="button" name="">Code</button>
+              </div>
+              <iframe width="700" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~VenuGopalShetty/49.embed"></iframe>
+            </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
